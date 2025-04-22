@@ -246,23 +246,3 @@ Request Header
 }
 ```
 > Replace **SANCTUM_AUTH_TOKEN** with real token
-
-<br>
-
-## Customization (.env)
-To tailor the Laravel API Endpoints to suit your particular use case, please modify the following ENV variables accordingly:
-
-| Details                       | Value | API End Points                 |
-| ----------------------------- | ------- | ------------------------------ |
-| SITE_URL                      | "https://www.mbparvez.me"         | URL of the website where the API will be utilized. |
-| EMAIL_VERIFICATION_URL        | "${SITE_URL}/verify?verify_url="  | Email verification URL of the website. |
-| MOBILE_NUMBER_REQUIRED        | *true/false*<br>Default: *true*  | Specify whether a mobile number is required for registration or not. |
-| OTP_NUMBER_LENGTH             | 4 to 8<br>Default: 6     | Length of the OTP |
-| OTP_EXPIRE_TIME               | 300   | Duration of the OTP expiration in seconds |
-| ** VERIFY_USER_BY             | "email"       | -- |
-| MONTHLY_PASSWORD_RESET_LIMIT  | 15    | Maximum monthly limit for password reset. |
-| WEEKLY_PASSWORD_RESET_LIMIT   | 6     | Maximum weekly limit for password reset. |
-| DAILY_PASSWORD_RESET_LIMIT    | 3     | Maximum daily limit for password reset. |
-| INFOBIP_BASE_URL              | Null  | Infobip API URL |
-| INFOBIP_TIMEOUT               | Null  | Infobip request timeout |
-| INFOBIP_API_KEY               | Null  | Infobip API key |
