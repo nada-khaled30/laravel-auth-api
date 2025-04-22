@@ -266,9 +266,3 @@ To tailor the Laravel API Endpoints to suit your particular use case, please mod
 | INFOBIP_BASE_URL              | Null  | Infobip API URL |
 | INFOBIP_TIMEOUT               | Null  | Infobip request timeout |
 | INFOBIP_API_KEY               | Null  | Infobip API key |
-
-<br>
-
-## Copyright and license
-
-Code and documentation copyright 2022 the [M B Parvez](https://www.mbparvez.me) and [Gosoft](https://www.gosoft.io). Code released under the MIT License.
